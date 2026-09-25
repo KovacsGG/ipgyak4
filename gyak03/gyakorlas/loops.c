@@ -17,7 +17,7 @@ int main() {
         printf("%i ", a);
         c = b;
         b += a;
-        a = b;
+        a = c;
     }
     printf("\n");
     // Ekvivalens while ciklus helye:
